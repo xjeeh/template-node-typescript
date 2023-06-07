@@ -1,0 +1,17 @@
+{
+  "name": "template-node-typescript",
+  "version": "1.0.0",
+  "description": "Template to start a new node with typescript project",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "cls && concurrently \"npx tsx watch src/index.ts\""
+  },
+  "author": "xJeeh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "concurrently": "^7.6.0",
+    "dotenv": "^16.0.3",
+    "typescript": "^4.9.4"
+  }
+}
